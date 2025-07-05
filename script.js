@@ -22,14 +22,15 @@ function checkLogin() {
 // 2. Firebase Config
 // ---------------------
 const firebaseConfig = {
-  apiKey: "YOUR-API-KEY",
-  authDomain: "YOUR-AUTH-DOMAIN",
-  databaseURL: "YOUR-DATABASE-URL",
-  projectId: "YOUR-PROJECT-ID",
-  storageBucket: "YOUR-STORAGE-BUCKET",
-  messagingSenderId: "YOUR-SENDER-ID",
-  appId: "YOUR-APP-ID"
+  apiKey: "AIzaSyC5BNkVPRtmQLu4cdGLbWu9UstQf1JHzTY",
+  authDomain: "love-chat-app-e4952.firebaseapp.com",
+  projectId: "love-chat-app-e4952",
+  storageBucket: "love-chat-app-e4952.appspot.com",
+  messagingSenderId: "691245226575",
+  appId: "1:691245226575:web:4cb8913a956ffe96b2a83a",
+  measurementId: "G-2MMPPN0757"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
