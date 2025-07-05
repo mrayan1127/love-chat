@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>আমাদের প্রাইভেট লাভ চ্যাট</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>আমাদের প্রাইভেট লাভ চ্যাট 💖</h2>
+  <div id="loginBox">
+    <input type="text" id="masterName" placeholder="Master Name">
+    <input type="password" id="masterPass" placeholder="Master Password">
+    <button onclick="checkLogin()">প্রবেশ করুন</button>
+  </div>
+
+  <div id="nameBox" style="display:none;">
+    <input type="text" id="userName" placeholder="আপনার নাম দিন">
+    <button onclick="enterChat()">চ্যাটে প্রবেশ করুন</button>
+  </div>
+
+  <div id="chatBox" style="display:none;">
+    <h3 id="welcome"></h3>
+    <div id="chatArea"></div>
+    <input type="text" id="chatInput" placeholder="মেসেজ লিখুন...">
+    <button onclick="sendMessage()">পাঠান</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
