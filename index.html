@@ -5,22 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>আমাদের প্রাইভেট লাভ চ্যাট</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
 </head>
 <body>
 
 <div class="container">
   <h2>আমাদের প্রাইভেট লাভ চ্যাট 💖</h2>
+
+  <!-- Login Box -->
   <div id="loginBox">
     <input type="text" id="masterName" placeholder="Master Name">
     <input type="password" id="masterPass" placeholder="Master Password">
     <button onclick="checkLogin()">প্রবেশ করুন</button>
   </div>
 
+  <!-- Name input -->
   <div id="nameBox" style="display:none;">
     <input type="text" id="userName" placeholder="আপনার নাম দিন">
     <button onclick="enterChat()">চ্যাটে প্রবেশ করুন</button>
   </div>
 
+  <!-- Chat box -->
   <div id="chatBox" style="display:none;">
     <h3 id="welcome"></h3>
     <div id="chatArea"></div>
