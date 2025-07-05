@@ -1,6 +1,6 @@
 body {
   background: #ffe6e6;
-  font-family: "Kalpurush", sans-serif;
+  font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ body {
   border-radius: 15px;
   box-shadow: 0 0 15px pink;
   text-align: center;
-  width: 300px;
+  width: 320px;
 }
 
 input {
